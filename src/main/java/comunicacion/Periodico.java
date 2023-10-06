@@ -37,7 +37,7 @@ public class Periodico extends Escrito{
   } 
 
   public String toString() {
-    return "Titulo: " + getTitulo() + "\n" + "Autor: " + getAutor() + "\n" + "Paginas: " + getPaginas() + "\n" + "Fecha: " + fecha + "\n" + "Primicia: " + primicia;
+    return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia;
   }
 
   public int palabrasTotales(int palabrasPagina) {
