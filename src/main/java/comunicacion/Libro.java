@@ -47,7 +47,7 @@ public class Libro extends Escrito{
   }
 
   public String toString() {
-    return "Título: " + getTitulo() + "\n" + "Autor: " + getAutor() + "\n" + "Paginas: " + getPaginas() + "\n" + "Co-Autor: " + co_autor + "\n" + "Editorial: " + editorial + "\n" + "Edicion: " + edicion;
+    return getOrigen()  + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n" + editorial + "\n" + edicion;
   }
 
   public int palabrasTotales(int palabrasPagina) {
